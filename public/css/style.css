@@ -1,0 +1,1052 @@
+body{
+    background-color: white;
+}
+
+.error{
+    color: red;
+}
+
+.design
+{
+    padding-top: 30px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    height: 390px;
+    background: linear-gradient(white);
+    border-radius: 20px;
+}
+
+#fields{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+#fields div{
+    width: 100%;
+
+}
+#field div{
+    width: 100%;
+}
+
+#mae
+{
+    width: 1200px;
+    height:auto;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+
+#texto_topo{
+    display: flex;
+}
+
+#botoes
+{
+    padding-right: 100px;
+    margin-left: 100px;
+}
+
+/*.voltaraotopo{
+    border: 3px solid #2184d5;
+    border-radius: 100%;
+    padding: 21px 6px 4px 6px;
+    margin-left: 20px;
+    background-color: #2184d5;
+}*/
+
+.person:hover{
+    background-color: #2184d5;
+}
+
+.person{
+    border: 3px solid #2184d5;
+    border-radius: 100%;
+    padding: 3px 5px;
+    margin-left: 20px;
+}
+
+#perfil{
+
+    margin-left: 200px;
+
+    align-self: center;
+    display: flex;
+}
+
+/*scrollbar custom*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    
+
+
+}
+::-webkit-scrollbar-thumb{
+    background: #18629e;
+    border-radius: 20px;
+}
+
+/********************************/
+
+
+.cadastro_usuario{
+    color: #2184d5;
+    font-style: bold;
+}
+
+textarea{
+    resize: none;
+    border: 2px solid #1E3774;
+    border-radius: 15px;
+}
+
+#contorno{
+    border: 3px solid #1E3774;
+    height:320px;
+    width: 500px;
+
+}
+
+
+
+/*estilos forms*/
+
+
+#contorno_perfil{
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+#formulariocad{
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+}
+
+#formulariocolab{
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+}
+
+#field{
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+}
+
+#formulario div .text-input{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-style: solid;
+
+}
+
+#formulariocad div .text-input{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-style: solid;
+
+}
+
+#formulariocolab div .text-input{
+
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-style: solid;
+
+}
+
+
+
+#input_cadastro{
+    width: 150px;
+    height: 55px;
+}
+.nomes_cadastros{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    align-content: center;
+
+}
+
+#nome_cadastro{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+#titulo_cad{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: blueviolet;
+}
+
+#icon_info_cad{
+    width: 30px;
+    height: 50px;
+    float: right;
+    background-color: rosybrown;
+}
+
+/*---------------------------------------*/
+
+/*FONTES*/
+h1
+{
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 22px;
+    text-align: justify;
+    color: black;
+}
+
+.home_adm
+{
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.texto_home_adm{
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+
+
+
+h2
+{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+
+h3{
+    font-family: raleway;
+    font-size: 12px;
+    color: black;
+
+}
+
+
+
+h4
+{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 20px;
+    text-align: justify-all;
+    color: black;
+}
+
+h5{
+    font-family: raleway;
+    font-size: 14px;
+    color: black;
+
+}
+
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+
+
+.title{
+    margin-right: 5px;
+    font-family: raleway;
+    font-style: bold;
+    font-size: 22px;
+    text-align: justify;
+    color: black;
+}
+
+p{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+
+
+a{
+    color: black;
+}
+
+#texto{
+    align-content: center;
+}
+
+#paragrafo{
+    width: 700px;
+    margin: auto;
+    text-align: justify;
+}
+
+/************************/
+
+
+
+.entra{
+    padding: 10px 30px;
+    color: white;
+    border-width: 0px;
+    background-color: #2184d5;
+}
+
+.button{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway;
+    font-size: 16px;
+    border-radius: 8rem;
+}
+
+.general:hover{
+    background-color: #2184d5;
+    color: white;
+}
+
+.general{
+    padding: 10px 15px;
+    color: rgb(46, 46, 46);
+    border: 3px solid #2184d5;
+    margin-right: 10px;
+}
+.design
+{
+    padding-top: 30px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    height: 390px;
+    background: linear-gradient(white);
+    border-radius: 20px;
+}
+
+/*p.rodape{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+}*/
+
+#contato_rodape{
+    float: left;
+    width: 200px;
+    height: 100px ;
+}
+#links_rodape
+{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 70px;
+    height: 100px;
+    text-align: right;
+    text-decoration: none;
+
+    border-radius: 20px;
+
+}
+
+/****************************************************************/
+
+/******************************/
+
+#field{
+
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+/**** tela problema principal*/
+
+#nome_problema{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+
+.nome_empresa_principal
+{
+    font-size: 28px;
+    align-items: center;
+}
+
+a.link_funcionalidade:link{
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+
+a.link_funcionalidade:hover {
+    background-color:#DFEBF8;
+    border-radius: 5px;
+
+}
+
+
+.nome_problema_principal
+{
+    font-size: 22px;
+    align-items: center;
+}
+
+#nave_bar{
+    height: 100px;
+    margin-right: 500px;
+
+}
+
+#lista_colaboradores{
+    height: 300px;
+    width: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-right: 100px;
+    margin-left: 30px;
+    border: 3px solid #2184d5;
+    border-radius: 3%;
+    float: left;
+}
+
+#botoes_prob_prin{
+    height: 300px;
+    width: 430px;
+    margin-left: 70px;
+    border: 3px solid #2184d5;
+    border-radius: 3%;
+    float: left;
+}
+
+
+#funcionalidades{
+    height: 300px;
+    width: 1100px;
+}
+
+#funcionalidades_colaborador{
+    height: 300px;
+    width: 1100px;
+    margin-bottom: 80px;
+}
+
+
+#titulo_colab_prob{
+    width: 400px;
+    height:15px;
+}
+
+#colab_prob{
+    width: 350px;
+    height: 30px;
+
+
+}
+
+
+/* a.botao_colab:link{
+    width: 350px;
+    height: 200px;
+    /* background-color: #1E3774;
+    float: none;
+}
+
+a.botao_colab:visited{
+    width: 350px;
+    height: 200px;
+    /* margin-right: 600px; */
+    /* margin-top: 40px; */
+    /* background-color: #1E3774; */
+    /* float: none;
+}
+
+a.botao_colab:hover{
+    width: 350px;
+    height: 200px;
+    /* margin-right: 600px; */
+    /* margin-top: 40px; */
+    /* background-color: #1E3774; */
+    /* float: none;
+}  */
+
+
+
+
+.colab_prob{
+    font-size: 18px;
+}
+
+/*botão adicionar colaborador*/
+a.botao_colab:link{
+    width: 30px;
+    height: 15px;
+    padding: 10px 15px;
+    color: rgb(46, 46, 46);
+    border: 3px solid #2184d5;
+    border-radius: 15px;
+
+    /* margin-top: 100px; */
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+a.botao_colab:visited{
+    width: 30px;
+    height: 15px;
+    padding: 10px 15px;
+    color: rgb(46, 46, 46);
+    border: 3px solid #2184d5;
+    border-radius: 15px;
+
+    /* margin-top: 100px; */
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+
+a.botao_colab:hover {
+    width: 30px;
+    height: 15px;
+    background-color: #2184d5;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+a.botao_funcionalidades:link{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* home administrador */
+
+#nome_adm{
+    width: 400px;
+    height: 50px;
+}
+
+#problemas{
+    width: 1100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+#prob{
+    border: 3px solid #2184d5;
+    border-radius: 15%;
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#empty {
+    color: gray;
+    margin-top: 40px;
+    height: 90px;
+}
+
+#adicionar_problema{
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+a.botao_adicionar:link{
+    width: 30px;
+    height: 15px;
+    padding: 10px 15px;
+    color: rgb(46, 46, 46);
+    border: 3px solid;
+    border-color: #2184d5;
+    border-radius: 15px;
+    /* margin-top: 100px; */
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+a.botao_adicionar:visited{
+    width: 30px;
+    height: 15px;
+    padding: 10px 15px;
+    color: rgb(46, 46, 46);
+    border: 3px solid;
+    border-color: #2184d5;
+    border-radius: 15px;
+    /* margin-top: 100px; */
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+
+a.botao_adicionar:hover {
+    width: 30px;
+    height: 15px;
+    background-color: #2184d5;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+/*home colaborador*/
+
+a.link_problema:link{
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+a.link_problema:hover {
+    background-color:#DFEBF8;
+    border-radius: 5px;
+
+}
+
+a.link_continuar:link{
+    width: 30px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+a.link_continuar:hover {
+  text-decoration: underline;
+}
+
+
+/* -------------------------------------------------- */
+/* forms sub_problema */
+
+#formulario_subproblema{
+    border-radius: 20px;
+    width: 900px;
+    /* height: auto; */
+    height: 100%
+}
+
+#titulos_subproblema{
+    width: 400px;
+    height: 90px;
+    align-content: center;
+    padding-bottom: 70px;
+}
+
+.subproblema_titulo{
+    text-align: center;
+}
+
+#texto_sub_problema{
+    width: 150px;
+    height: 30px;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    /* margin-bottom: 40px;   */
+    text-align: center;
+}
+ #caixa_texto{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border: black;
+}
+
+
+
+#campos{
+    /* display: flex;
+    margin: 0 auto; */
+    /* border: 2px solid #2184d5; */
+    margin-bottom: 20px;
+    width: 700px;
+    height: 50px;
+    float: left;
+    font-size: 16px;
+    border: 2px solid #2184d5;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    /* height:fit-content; */
+}
+
+#formulario_subproblema div .text-input{
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+
+#acrescimo_sub_problema{
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#subproblema{
+    width: 900px;
+    height: 100px;
+    align-items: center;
+
+}
+
+#subproblema{
+    width: 900px;
+    height: 100px;
+    align-items: center;
+}
+
+
+/* ---------------------------------------- */
+/* 5 porques */
+
+#form_container{
+    border: 3px solid #2184d5;
+    border-radius: 20px;
+    width: 70%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#titulos_porques{
+    width: 600px;
+    align-content: center;
+}
+
+.porques_titulo{
+    text-align: center;
+}
+
+#progress-bar{
+    --progress: 50;
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    background-color: #ccc;
+
+}
+
+#progress-bar::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+    transition: all 0.2s ease;
+  }
+
+
+/* página GUT */
+
+#tabela{
+    width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+}
+.tabela{
+    width: 1000px;
+    align-content: center;
+}
+
+
+
+.campo_gut{
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    height: 35px;
+    width: auto;
+}
+
+.campo_gut_cor{
+    border-radius: 5%;
+    text-align: center;
+    background-color: #DFEBF8;
+    padding: 10%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    height: 35px;
+    width: auto;
+}
+
+.form_campo_gur{
+    width: 5%;
+}
+
+#botao_gut{
+    width: 1000px;
+    height: 50px;
+    float: center;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.botao_form_gut:hover{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    border-color:#2184d5;
+    background-color: #DFEBF8;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+.botao_form_gut{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    background-color: #DFEBF8;
+    color: black;
+    border-radius: 50%;
+    border-color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+
+/* ISHIWAKA */
+
+/* Cadastro Problema */
+
+#titulo_problema{
+    align-items: center;
+    height: 25px;
+    margin-bottom: 55px;
+    margin-top: 50px;
+}
+
+#nome_problema_cadastro{
+    width: 800px;
+    align-items: center;
+
+}
+
+#problema{
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+    height: auto;
+    width: 1000px;
+    margin-bottom: 70px;
+}
+
+#salvar {
+    width: 175px;
+    padding-left: 375px;
+}
+
+#colabs {
+    width: 500px;
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+}
+
+#colab {
+    /* border-top: 2px solid #2184d5; */
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 400px 50px;
+    align-items: center;
+}
+
+#colab_sign {
+    background-color: #2184d5;
+    color: white;
+    border-radius: 2rem;
+    height: 29px;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.campo_cad_problema{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+}
+
+#botao_cad_problema{
+    margin-top: 40px;
+    height: 50px;
+}
+
+#colaboradores_cad_problema
+{
+    width: 600px;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 100px;
+
+}
+
+.colaboradores_select
+{
+    width: 400px;
+    border-color: #2184d5;
+    border-radius: 5px;
+    border: 3px solid #2184d5;
+    align-items: center;
+    font-family: 16px;
+}
+
+
+#sobreomasp_text{
+    border: 5px solid #2184d5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    height: auto;
+    width: 800px;
+    margin-bottom: 70px;
+
+}
+
+summary{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 17px;
+    text-align: justify-all;
+    color: black;
+}
+
+p2{
+    font-family: raleway;
+    font-style: bold;
+    font-size: 14px;
+    text-align: justify-all;
+    color: black;
+}
+
+.porques{
+    font-size: 20px;
+}
+
+
+
+/* Problema principal - passo a passo*/
+
+#passos{
+    height:500px;
+    width: 1000px;
+}
+
+#linha_passo{
+    height:500px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+#passo{
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:left;
+    border: 2px solid #2184d5;
+    border-radius: 20px;
+
+}
